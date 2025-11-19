@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Competitive Helper: Start Listener",
+        "command": "start_cc_server"
+    }
+]
