@@ -5,9 +5,9 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import os
 
-INPUT_PATH = r"C:\Users\Z\Desktop\Nikhil\CP\Sublime\input.txt"
-OUTPUT_PATH = r"C:\Users\Z\Desktop\Nikhil\CP\Sublime\output.txt"
-EXPECTED_PATH = r"C:\Users\Z\Desktop\Nikhil\CP\Sublime\e-output.txt"
+INPUT_PATH = r"PUT YOUR PATH HERE"
+OUTPUT_PATH = r"PUT YOUR PATH HERE"
+EXPECTED_PATH = r"PUT YOUR PATH HERE"
 
 server_instance = None
 
@@ -68,3 +68,4 @@ class StartCcServerCommand(sublime_plugin.ApplicationCommand):
         thread = threading.Thread(target=server_thread, daemon=True)
         thread.start()
         print("CompetitiveHelper: Server started")
+
